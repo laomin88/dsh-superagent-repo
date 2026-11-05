@@ -1,3 +1,5 @@
-# Superagent test repository
+# 简单待办
 
-A repository for trying dsh-superagent tasks.
+在浏览器中打开 `index.html`，即可新增、完成或删除任务。任务保存在当前浏览器的本地存储中；清除浏览器数据会删除已保存的任务。
+
+无需安装依赖，也可以在此目录运行 `python3 -m http.server`，然后访问 <http://localhost:8000>。

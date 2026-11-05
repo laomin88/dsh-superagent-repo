@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的待办</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="todo-app">
+    <h1>我的待办</h1>
+    <p class="intro">记录要做的事，一件一件完成。</p>
+    <form id="task-form">
+      <label class="sr-only" for="task-input">新任务</label>
+      <input id="task-input" type="text" placeholder="添加一项任务" maxlength="200" required autocomplete="off">
+      <button type="submit">添加</button>
+    </form>
+    <p id="status" role="status" aria-live="polite"></p>
+    <ul id="task-list" aria-label="任务列表"></ul>
+    <p id="empty-state">还没有任务，添加一项开始吧。</p>
+  </main>
+</body>
+</html>
